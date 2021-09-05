@@ -1,0 +1,76 @@
+.m
+{
+background-color: black;    
+}
+.style
+{
+background-color: green;
+border: 2px dashed red;
+width: 150px;
+font-family: cursive;
+border-radius: 25%;
+animation-name: mix;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+animation-delay: 2s;    
+}
+@keyframes mix
+{
+0%{width: 200px; background-color: green; box-shadow: 0 0 10px red;}
+50%{width: 400px; background-color: orangered; box-shadow: 0 0 30px gold;}
+100%{width: 200px; background-color: blue; box-shadow: 0 0 60px green;}      
+} 
+.style1
+{
+background-color: green;
+border: 2px dashed red;
+width: 150px;
+font-family: cursive;
+border-radius: 25%;
+animation-name: shad;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+animation-delay: 2s;    
+}
+@keyframes shad
+{
+0%{opacity: 0;}
+50%{opacity: 1;}
+100%{opacity: 0;}      
+}
+.style3
+{
+background-color: green;
+border: 2px dashed red;
+width: 150px;
+font-family: cursive;
+border-radius: 25%;
+animation-name: shadow;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+animation-delay: 2s;    
+}
+@keyframes shadow
+{
+0%{ box-shadow: 0 0 10px red;}
+50%{ box-shadow: 0 0 30px gold;}
+100%{ box-shadow: 0 0 60px green;}      
+}
+.style2
+{
+background-color: green;
+border: 2px dashed red;
+width: 150px;
+font-family: cursive;
+border-radius: 25%;
+animation-name: move;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+animation-delay: 2s;    
+}
+@keyframes move
+{
+0%{width: 200px; background-color: green;}
+50%{width: 400px; background-color: orangered;}
+100%{width: 200px; background-color: blue;}      
+} 
